@@ -1,5 +1,6 @@
 let number = prompt("Enter a number between 100 and 999",)||0;
 let number1,number2,number3=0;
+let Narcissistic=0;
 if (number >= 100 && number <= 999) {
     number1= number.substr(0,1);
     number2= number.substr(1,1);
